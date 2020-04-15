@@ -1,0 +1,17 @@
+body {
+    width: 300px;
+}
+.card {
+    border: solid black 2px;
+    padding: 20px;
+    border-top: 0;
+}
+.card:hover {
+    background-color: tomato;
+}
+#last {
+    border-bottom: 0;
+}
+p {
+    cursor: default;
+}
