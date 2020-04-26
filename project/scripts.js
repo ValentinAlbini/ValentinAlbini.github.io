@@ -25,8 +25,6 @@ let loadPhoto = (photoNumber, hideNumber) => {
     $('#description').text(imagesData[photoNumber].desription);
     $(`.thumb_border:nth-child(${photoNumber+1})`).toggleClass('picked');
     $(`.thumb_border:nth-child(${hideNumber+1})`).toggleClass('picked');
-    // $(`.thumb_border:nth-child(${photoNumber+1}) .tri`).css('visibility','visible');
-    // $(`.thumb_border:nth-child(${hideNumber+1}) .tri`).css('visibility','hidden');
   }
 
 let i=0;

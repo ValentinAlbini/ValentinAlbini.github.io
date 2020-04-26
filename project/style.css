@@ -97,6 +97,7 @@ main {
 }
 .thumb_img {
     height: 100%;
+    cursor: pointer;
 }
 .box_shadow {
     position: absolute;
