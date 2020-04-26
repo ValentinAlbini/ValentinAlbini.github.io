@@ -1,0 +1,21 @@
+main {
+    width: 460px;
+  }
+  h1 {
+    color: red;
+  }
+  h2 {
+    color: #AA00AA;
+  }
+  ol{
+    list-style: upper-roman;
+    color: #FF00FF;
+    text-decoration: underline;
+  }
+  ul{
+    list-style-type: square;
+  }
+  #black {
+    color: black;
+    text-decoration: underline;
+  }

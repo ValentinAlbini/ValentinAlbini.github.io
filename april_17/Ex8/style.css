@@ -1,0 +1,111 @@
+#bg {
+    width: 100%;
+    height: 100%;
+    background-color: cyan;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+main {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    color: gray;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#content {
+    background-color: white;
+    width: 600px;
+    position: relative;
+}
+
+#input_cont {
+    position: relative;
+}
+
+input {
+    box-sizing: border-box;
+    width: 450px;
+    height: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    position: absolute;
+    left: 50px;
+    border: solid 2px grey;
+    border-right: 0px;
+    padding-left: 3px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: grey;
+}
+
+#add_button {
+    position: absolute;
+    box-sizing: border-box;
+    width: 50px;
+    height: 40px;
+    margin-right: 0px;
+    margin-left: 0px;
+    top: 0px;
+    left: 500px;
+    background: lime;
+    border: solid 2px grey;
+    border-left: 1px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+ul {
+    margin-top: 80px;
+    position: relative;
+}
+.todo_container {
+    position: relative;
+    box-sizing: border-box;
+    width: 450px;
+    height: 40px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.todo {
+    display:inline-flex;
+    position: absolute;
+    font-size: 36px;
+    width: 450px;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    left: 10px;
+}
+
+.bin {
+    position: absolute;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    margin-left: 3px;
+    top: 11px;
+    left: 460px;
+}
+
+.check {
+    position: absolute;
+    box-sizing: border-box;
+    width: 22px;
+    height: 22px;
+    margin-right: 3px;
+    margin-left: 3px;
+    top: 11px;
+    left: 485px;
+}
